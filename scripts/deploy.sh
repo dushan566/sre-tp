@@ -4,7 +4,7 @@ DIR=$( pwd )
 ENV=$1
 ACTION=$2
 
-function usage {
+function show_usage {
     "Error: Usage ./scripts/deploy.sh [Environment] [plan|create|destroy]"
 }
 
